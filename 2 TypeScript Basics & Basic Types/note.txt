@@ -1,0 +1,13 @@
+2. Using Types
+   TypeScript type system only helps you during development (i.e before the code gets compiled.)
+3. TypeScript Types vs Javascript Types
+   Javascript is dynamically typed whereas TypeScript is statically typed. 
+6. Tyes Assignment & Type Inference
+   Type inferences: Typescript does its best to understand which type we have in the variable or constant. 
+7. Object Types:
+   Any javaScript object, more specific types (type of object) are possible.
+   TypeScript inferes to the type of data in the object.
+8. Arrays Types:
+   We can store any data in an Array. Any Javascript array, type can be flexible or strict. 
+9. Working with Tuples
+   Added to TypeScript: Fixed length array as well as fixed type

@@ -1,0 +1,24 @@
+1. What is TypeScript and why should you use it?
+   Typescript is a javascript superset. It means a programming language building up on javascript. It adds new feature + advantages to javascript. It cannot be execute by the browser or node. TypeScript is a programming language as well as a tool which we run over our code to compile our typescript to javascript. Typescript compiler compiles this new feature to new js workaround, possible errors are thrown.
+
+4. Installing & using TypeScript
+   ! let typescript know that it will not be null.
+   tsc name.ts for running ts file.
+   The feature which are in the typescript file are used to evaluate our code find potential error after compilation.
+
+5. TypeScript advantages
+   TypeScript adds Types! 
+   Next-gen javascript feature(compiled down for older Browser)
+   Non javascript features like interfaces or generics
+   Meta porgramming features like Decorators
+   Rich Configuration options
+   Modern Tooling that helps even in non typescript projects
+
+TypeScript Basic and Basic Types
+2. Using Types
+   Typescript provide many types to javascript. It also enable us to write our own type. Core types are:
+   number: In javascript there is only one number type no float,double,int etc.
+   string: All text values
+   boolean: true,false Just these two, no "truthy" or "false" values
+   
+   

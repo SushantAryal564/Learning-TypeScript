@@ -11,3 +11,15 @@
    We can store any data in an Array. Any Javascript array, type can be flexible or strict. 
 9. Working with Tuples
    Added to TypeScript: Fixed length array as well as fixed type
+10. Working with Enums
+   enum{New,old} Added by typeScript: Automatically enumerated global constant identifiers
+11. The any types
+   It is one of the most flexible type that we can assign. It doesn't tell typescript anything. Any kind of values, no specific type. We should always try to avoid any it takes all the advantages that the typescript has provided. 
+12. Union Types
+   If we have some place in  our application can be parameter or anything where we can expect two different types of value Union can help us.
+14. Literal Types
+   Literal types are types where we are sure for exact value it should hold. 
+15. Function Return Types and void
+    If we don't return anything from the function than the function have a special return type called void. void means function has no return statement.
+16. Function as types
+   Function type are the function that describe the function regarding the parameter and return type.

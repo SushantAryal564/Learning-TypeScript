@@ -1,0 +1,29 @@
+3. Comiling the Entire Project Multiple Files
+   tsc --init create ts-config.json file. 
+6. Understading TypeScript Core libs
+  libs is an option which default opject and feature TypeScript Knows.
+  If lib options is not set default are assumed this are typically the default which are need to run typescript in the browser. 
+  "libs":["dom"] unlock all dom api so typescript can understand dom.
+8. Working with source code
+   "sourceCode":true  we can have ts code in source of browser for debugging purpose. 
+9. rootDir and outDir
+   The bigger our project get we might wanna organize our files we wouldn't wanna have file lies in our root level.
+   "outDir": specify where the compiled typescript should save the javascript files.
+   "rootDir": specify the tsc src folder which we want only to compile.
+   "removeCommet": remove comment on compilation
+   "noEmit": to check file without creating output javascript file.
+   "noEmitOnError": doesn't compile to javascript file if there is error in typescript file. Any file fail to compile no file is compiled.
+   "strict": It enable all strict type checking options.
+   "noImplicityany": It ensure that we have to be clear about the value working with our code. If the TypeScript is not about to infer then we have to specify the type of the value like in the function which is declared first and called later we have to specify the type of parameter.
+   "strictNullOption": They tell typescript to be pretty strict regarding how you access and work with value that might hold null value.
+   !: This means that we as a developer know that this operation will result non null value.
+   "strictFucntionTypes": advance catching niche bug. It is related to the function type which we might be setting up.
+   "stringBindCallApply":
+   "noUnusedLocals": doesn't allow unused local variable in the code.
+   "noUnUsedParameter": doesn't allow function to have parameter which isn't used or passed by the user. 
+   "noImplicitReturn":we get error if function return someting sometime and other time nothing.
+   
+
+
+
+

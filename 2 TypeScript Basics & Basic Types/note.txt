@@ -23,3 +23,10 @@
     If we don't return anything from the function than the function have a special return type called void. void means function has no return statement.
 16. Function as types
    Function type are the function that describe the function regarding the parameter and return type.
+19. Funtion Types and callbacks
+    
+20 The Unknown Types
+   It is unknown cause we don't know what the user will enter in it. we can store any value in it without getting error.
+   unknown is bit more restrictive than any. we have to check the type that is stored in unknown variable before we can assign another variable.
+21. The never Types
+   
